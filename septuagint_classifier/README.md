@@ -10,9 +10,10 @@ The ideas of the project are:
 1. to explore possibility of classification LXX texts by 57 groups;
 2. to use this classification for exploring textual connections between the Greek New Testament and LXX.
 
-### How I've done that
+### How it is done
 
 Model used: Ancient-Greek-BERT
+
 Dataset used: [my dataset](https://huggingface.co/datasets/epaolinos/septuagint) based on [Septuagint dataset](https://www.kaggle.com/datasets/abbrivia/septuagint) from Kaggle. I split all the chapters by verses, extracted book name, verse and chapter numbers. Also I added genre labels that could be useful in the future.
 
 The model was fine-tuned for classification by book names and resulted

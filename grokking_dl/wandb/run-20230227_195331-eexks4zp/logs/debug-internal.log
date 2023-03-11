@@ -1,0 +1,208 @@
+2023-02-27 19:53:32,131 INFO    StreamThr :10661 [internal.py:wandb_internal():87] W&B internal server running at pid: 10661, started at: 2023-02-27 19:53:32.128467
+2023-02-27 19:53:32,135 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: status
+2023-02-27 19:53:32,140 INFO    WriterThread:10661 [datastore.py:open_for_write():85] open: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/run-eexks4zp.wandb
+2023-02-27 19:53:32,144 DEBUG   SenderThread:10661 [sender.py:send():336] send: header
+2023-02-27 19:53:32,147 DEBUG   SenderThread:10661 [sender.py:send():336] send: run
+2023-02-27 19:53:32,833 INFO    SenderThread:10661 [dir_watcher.py:__init__():216] watching files in: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files
+2023-02-27 19:53:32,833 INFO    SenderThread:10661 [sender.py:_start_run_threads():1067] run started: eexks4zp with start time 1677513211.3795
+2023-02-27 19:53:32,833 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: summary_record
+2023-02-27 19:53:32,834 INFO    SenderThread:10661 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 19:53:32,847 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: check_version
+2023-02-27 19:53:32,852 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: check_version
+2023-02-27 19:53:33,125 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: run_start
+2023-02-27 19:53:33,151 DEBUG   HandlerThread:10661 [system_info.py:__init__():31] System info init
+2023-02-27 19:53:33,152 DEBUG   HandlerThread:10661 [system_info.py:__init__():46] System info init done
+2023-02-27 19:53:33,152 INFO    HandlerThread:10661 [system_monitor.py:start():151] Starting system monitor
+2023-02-27 19:53:33,153 INFO    SystemMonitor:10661 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-27 19:53:33,154 INFO    HandlerThread:10661 [system_monitor.py:probe():172] Collecting system info
+2023-02-27 19:53:33,160 INFO    SystemMonitor:10661 [interfaces.py:start():168] Started cpu
+2023-02-27 19:53:33,162 DEBUG   HandlerThread:10661 [system_info.py:probe():195] Probing system
+2023-02-27 19:53:33,163 INFO    SystemMonitor:10661 [interfaces.py:start():168] Started disk
+2023-02-27 19:53:33,164 INFO    SystemMonitor:10661 [interfaces.py:start():168] Started memory
+2023-02-27 19:53:33,165 INFO    SystemMonitor:10661 [interfaces.py:start():168] Started network
+2023-02-27 19:53:33,167 DEBUG   HandlerThread:10661 [system_info.py:_probe_git():180] Probing git
+2023-02-27 19:53:33,262 DEBUG   HandlerThread:10661 [system_info.py:_probe_git():188] Probing git done
+2023-02-27 19:53:33,263 DEBUG   HandlerThread:10661 [system_info.py:probe():241] Probing system done
+2023-02-27 19:53:33,263 DEBUG   HandlerThread:10661 [system_monitor.py:probe():181] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.10.9', 'heartbeatAt': '2023-02-27T15:53:33.162394', 'startedAt': '2023-02-27T15:53:31.346265', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/simple_nn.ipynb', 'root': '/Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts', 'git': {'remote': 'https://github.com/epaolinos/machine-learning-scripts', 'commit': 'dd1d8a6a032cee67dc8d3cbf4d0c2d00bf5f0b32'}, 'email': 'epaolinos@gmail.com', 'host': 'MacBook-Air-Egizaran.local', 'username': 'paolo', 'executable': '/Users/paolo/miniconda3/bin/python', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 1300, 'min': 1300, 'max': 1300}, 'cpu_freq_per_core': [{'current': 1300, 'min': 1300, 'max': 1300}], 'disk': {'total': 112.80464935302734, 'used': 14.259761810302734}, 'memory': {'total': 4.0}}
+2023-02-27 19:53:33,264 INFO    HandlerThread:10661 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-27 19:53:33,264 INFO    HandlerThread:10661 [system_monitor.py:probe():185] Publishing system info
+2023-02-27 19:53:33,264 DEBUG   HandlerThread:10661 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-27 19:53:33,266 DEBUG   HandlerThread:10661 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-27 19:53:33,266 DEBUG   HandlerThread:10661 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-02-27 19:53:33,869 INFO    Thread-25 :10661 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/requirements.txt
+2023-02-27 19:53:33,870 INFO    Thread-25 :10661 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/conda-environment.yaml
+2023-02-27 19:53:33,870 INFO    Thread-25 :10661 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/wandb-summary.json
+2023-02-27 19:53:42,898 INFO    Thread-25 :10661 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/conda-environment.yaml
+2023-02-27 19:53:43,235 DEBUG   HandlerThread:10661 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-27 19:53:43,237 INFO    HandlerThread:10661 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-27 19:53:43,239 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 19:53:43,239 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 19:53:43,242 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 19:53:43,242 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 19:53:43,244 DEBUG   SenderThread:10661 [sender.py:send():336] send: files
+2023-02-27 19:53:43,245 INFO    SenderThread:10661 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-02-27 19:53:43,357 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-27 19:53:43,359 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: stop_status
+2023-02-27 19:53:43,392 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-27 19:53:43,395 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-27 19:53:43,397 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-27 19:53:43,399 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-27 19:53:43,401 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-27 19:53:43,403 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-27 19:53:43,404 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-27 19:53:43,406 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-27 19:53:43,721 DEBUG   SenderThread:10661 [sender.py:send():336] send: telemetry
+2023-02-27 19:53:43,721 DEBUG   SenderThread:10661 [sender.py:send():336] send: history
+2023-02-27 19:53:43,724 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: summary_record
+2023-02-27 19:53:43,727 INFO    SenderThread:10661 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 19:53:43,743 DEBUG   SenderThread:10661 [sender.py:send():336] send: history
+2023-02-27 19:53:43,744 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: summary_record
+2023-02-27 19:53:43,792 INFO    SenderThread:10661 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 19:53:43,799 DEBUG   SenderThread:10661 [sender.py:send():336] send: history
+2023-02-27 19:53:43,800 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: summary_record
+2023-02-27 19:53:43,805 INFO    SenderThread:10661 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 19:53:43,805 DEBUG   SenderThread:10661 [sender.py:send():336] send: history
+2023-02-27 19:53:43,806 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: summary_record
+2023-02-27 19:53:43,809 INFO    SenderThread:10661 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 19:53:43,811 DEBUG   SenderThread:10661 [sender.py:send():336] send: history
+2023-02-27 19:53:43,856 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: summary_record
+2023-02-27 19:53:43,857 INFO    SenderThread:10661 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 19:53:43,858 DEBUG   SenderThread:10661 [sender.py:send():336] send: history
+2023-02-27 19:53:43,858 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: summary_record
+2023-02-27 19:53:43,860 INFO    SenderThread:10661 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 19:53:43,860 DEBUG   SenderThread:10661 [sender.py:send():336] send: history
+2023-02-27 19:53:43,861 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: summary_record
+2023-02-27 19:53:43,862 INFO    SenderThread:10661 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 19:53:43,863 DEBUG   SenderThread:10661 [sender.py:send():336] send: history
+2023-02-27 19:53:43,863 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: summary_record
+2023-02-27 19:53:43,864 INFO    SenderThread:10661 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 19:53:43,868 DEBUG   SenderThread:10661 [sender.py:send():336] send: telemetry
+2023-02-27 19:53:43,870 DEBUG   SenderThread:10661 [sender.py:send():336] send: exit
+2023-02-27 19:53:43,871 INFO    SenderThread:10661 [sender.py:send_exit():559] handling exit code: 0
+2023-02-27 19:53:43,871 INFO    SenderThread:10661 [sender.py:send_exit():561] handling runtime: 10
+2023-02-27 19:53:43,872 INFO    SenderThread:10661 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 19:53:43,875 INFO    SenderThread:10661 [sender.py:send_exit():567] send defer
+2023-02-27 19:53:43,875 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:43,876 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 0
+2023-02-27 19:53:43,876 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:43,877 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-02-27 19:53:43,877 INFO    SenderThread:10661 [sender.py:transition_state():587] send defer: 1
+2023-02-27 19:53:43,877 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:43,878 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 1
+2023-02-27 19:53:43,878 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:43,879 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-02-27 19:53:43,879 INFO    SenderThread:10661 [sender.py:transition_state():587] send defer: 2
+2023-02-27 19:53:43,880 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:43,880 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 2
+2023-02-27 19:53:43,881 INFO    HandlerThread:10661 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-27 19:53:43,900 INFO    Thread-25 :10661 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/wandb-summary.json
+2023-02-27 19:53:43,901 INFO    Thread-25 :10661 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/wandb-metadata.json
+2023-02-27 19:53:43,905 DEBUG   SystemMonitor:10661 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-27 19:53:43,905 DEBUG   SystemMonitor:10661 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-27 19:53:43,906 DEBUG   SystemMonitor:10661 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-27 19:53:43,906 INFO    HandlerThread:10661 [interfaces.py:finish():175] Joined cpu
+2023-02-27 19:53:43,908 INFO    HandlerThread:10661 [interfaces.py:finish():175] Joined disk
+2023-02-27 19:53:43,908 INFO    HandlerThread:10661 [interfaces.py:finish():175] Joined memory
+2023-02-27 19:53:43,908 INFO    HandlerThread:10661 [interfaces.py:finish():175] Joined network
+2023-02-27 19:53:43,909 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:43,909 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-02-27 19:53:43,909 INFO    SenderThread:10661 [sender.py:transition_state():587] send defer: 3
+2023-02-27 19:53:43,910 DEBUG   SenderThread:10661 [sender.py:send():336] send: stats
+2023-02-27 19:53:43,910 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:43,911 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 3
+2023-02-27 19:53:43,912 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:43,914 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-02-27 19:53:43,914 INFO    SenderThread:10661 [sender.py:transition_state():587] send defer: 4
+2023-02-27 19:53:43,916 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:43,918 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 4
+2023-02-27 19:53:43,923 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:43,923 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-02-27 19:53:43,923 INFO    SenderThread:10661 [sender.py:transition_state():587] send defer: 5
+2023-02-27 19:53:43,923 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:43,924 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 5
+2023-02-27 19:53:43,924 DEBUG   SenderThread:10661 [sender.py:send():336] send: summary
+2023-02-27 19:53:43,925 INFO    SenderThread:10661 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 19:53:43,926 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:43,926 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-02-27 19:53:43,926 INFO    SenderThread:10661 [sender.py:transition_state():587] send defer: 6
+2023-02-27 19:53:43,926 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:43,927 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 6
+2023-02-27 19:53:43,927 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:43,927 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-02-27 19:53:43,934 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 19:53:44,357 INFO    SenderThread:10661 [sender.py:transition_state():587] send defer: 7
+2023-02-27 19:53:44,358 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:44,358 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 7
+2023-02-27 19:53:44,359 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:44,359 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-02-27 19:53:44,359 INFO    SenderThread:10661 [sender.py:transition_state():587] send defer: 8
+2023-02-27 19:53:44,359 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:44,359 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 8
+2023-02-27 19:53:44,361 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:44,365 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-02-27 19:53:44,369 INFO    SenderThread:10661 [sender.py:transition_state():587] send defer: 9
+2023-02-27 19:53:44,370 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:44,370 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 9
+2023-02-27 19:53:44,371 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:44,371 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-02-27 19:53:44,373 INFO    SenderThread:10661 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-02-27 19:53:44,384 INFO    wandb-upload_0:10661 [upload_job.py:push():138] Uploaded file /var/folders/07/y05t3f4n09933kf8ql1fmqqw0000gn/T/tmp1c6_epu5wandb/vjw6o3u1-wandb-metadata.json
+2023-02-27 19:53:44,414 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-27 19:53:44,907 INFO    SenderThread:10661 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/config.yaml
+2023-02-27 19:53:44,908 INFO    SenderThread:10661 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/wandb-summary.json
+2023-02-27 19:53:44,913 INFO    SenderThread:10661 [dir_watcher.py:finish():392] scan: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files
+2023-02-27 19:53:44,914 INFO    SenderThread:10661 [dir_watcher.py:finish():406] scan save: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/requirements.txt requirements.txt
+2023-02-27 19:53:44,915 INFO    SenderThread:10661 [dir_watcher.py:finish():406] scan save: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/config.yaml config.yaml
+2023-02-27 19:53:44,925 INFO    SenderThread:10661 [dir_watcher.py:finish():406] scan save: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/wandb-summary.json wandb-summary.json
+2023-02-27 19:53:44,928 INFO    SenderThread:10661 [dir_watcher.py:finish():406] scan save: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/conda-environment.yaml conda-environment.yaml
+2023-02-27 19:53:44,948 INFO    SenderThread:10661 [dir_watcher.py:finish():406] scan save: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/wandb-metadata.json wandb-metadata.json
+2023-02-27 19:53:44,949 INFO    SenderThread:10661 [sender.py:transition_state():587] send defer: 10
+2023-02-27 19:53:44,957 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: poll_exit
+2023-02-27 19:53:44,959 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:44,971 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 10
+2023-02-27 19:53:44,976 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:44,977 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-02-27 19:53:44,981 INFO    SenderThread:10661 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-27 19:53:45,418 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-27 19:53:45,419 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: poll_exit
+2023-02-27 19:53:45,815 INFO    wandb-upload_2:10661 [upload_job.py:push():138] Uploaded file /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/wandb-summary.json
+2023-02-27 19:53:45,947 INFO    wandb-upload_3:10661 [upload_job.py:push():138] Uploaded file /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/conda-environment.yaml
+2023-02-27 19:53:45,974 INFO    wandb-upload_0:10661 [upload_job.py:push():138] Uploaded file /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/requirements.txt
+2023-02-27 19:53:46,013 INFO    wandb-upload_1:10661 [upload_job.py:push():138] Uploaded file /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/files/config.yaml
+2023-02-27 19:53:46,215 INFO    Thread-24 (_thread_body):10661 [sender.py:transition_state():587] send defer: 11
+2023-02-27 19:53:46,218 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:46,218 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 11
+2023-02-27 19:53:46,221 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:46,221 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-02-27 19:53:46,221 INFO    SenderThread:10661 [file_pusher.py:join():167] waiting for file pusher
+2023-02-27 19:53:46,222 INFO    SenderThread:10661 [sender.py:transition_state():587] send defer: 12
+2023-02-27 19:53:46,222 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:46,223 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 12
+2023-02-27 19:53:46,225 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:46,225 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-02-27 19:53:46,433 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-27 19:53:46,602 INFO    SenderThread:10661 [sender.py:transition_state():587] send defer: 13
+2023-02-27 19:53:46,603 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: poll_exit
+2023-02-27 19:53:46,604 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:46,604 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 13
+2023-02-27 19:53:46,606 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:46,607 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-02-27 19:53:46,608 INFO    SenderThread:10661 [sender.py:transition_state():587] send defer: 14
+2023-02-27 19:53:46,608 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: defer
+2023-02-27 19:53:46,609 INFO    HandlerThread:10661 [handler.py:handle_request_defer():170] handle defer: 14
+2023-02-27 19:53:46,610 DEBUG   SenderThread:10661 [sender.py:send():336] send: final
+2023-02-27 19:53:46,611 DEBUG   SenderThread:10661 [sender.py:send():336] send: footer
+2023-02-27 19:53:46,613 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: defer
+2023-02-27 19:53:46,613 INFO    SenderThread:10661 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-02-27 19:53:46,617 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-27 19:53:46,617 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: server_info
+2023-02-27 19:53:46,618 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: get_summary
+2023-02-27 19:53:46,619 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: poll_exit
+2023-02-27 19:53:46,620 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: sampled_history
+2023-02-27 19:53:46,620 DEBUG   SenderThread:10661 [sender.py:send_request():363] send_request: server_info
+2023-02-27 19:53:47,296 DEBUG   HandlerThread:10661 [handler.py:handle_request():144] handle_request: shutdown
+2023-02-27 19:53:47,296 INFO    HandlerThread:10661 [handler.py:finish():841] shutting down handler
+2023-02-27 19:53:47,620 INFO    WriterThread:10661 [datastore.py:close():299] close: /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230227_195331-eexks4zp/run-eexks4zp.wandb
+2023-02-27 19:53:48,294 INFO    SenderThread:10661 [sender.py:finish():1493] shutting down sender
+2023-02-27 19:53:48,297 INFO    SenderThread:10661 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-27 19:53:48,297 INFO    SenderThread:10661 [file_pusher.py:join():167] waiting for file pusher

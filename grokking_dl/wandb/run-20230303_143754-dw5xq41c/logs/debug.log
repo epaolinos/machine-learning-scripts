@@ -1,0 +1,37 @@
+2023-03-03 14:37:54,570 INFO    MainThread:9900 [wandb_setup.py:_flush():68] Configure stats pid to 9900
+2023-03-03 14:37:54,571 INFO    MainThread:9900 [wandb_setup.py:_flush():68] Loading settings from /Users/paolo/.config/wandb/settings
+2023-03-03 14:37:54,571 INFO    MainThread:9900 [wandb_setup.py:_flush():68] Loading settings from /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/settings
+2023-03-03 14:37:54,571 INFO    MainThread:9900 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-03-03 14:37:54,571 INFO    MainThread:9900 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-03 14:37:54,571 INFO    MainThread:9900 [wandb_init.py:_log_setup():492] Logging user logs to /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230303_143754-dw5xq41c/logs/debug.log
+2023-03-03 14:37:54,572 INFO    MainThread:9900 [wandb_init.py:_log_setup():493] Logging internal logs to /Users/paolo/Desktop/Отаку/Machine Learning/machine-learning-scripts/grokking_dl/wandb/run-20230303_143754-dw5xq41c/logs/debug-internal.log
+2023-03-03 14:37:54,572 INFO    MainThread:9900 [wandb_init.py:_jupyter_setup():438] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ff3a2c598a0>
+2023-03-03 14:37:54,573 INFO    MainThread:9900 [wandb_init.py:init():532] calling init triggers
+2023-03-03 14:37:54,573 INFO    MainThread:9900 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.1, 'architecture': 'CNN', 'dataset': 'Some number', 'epochs': 400}
+2023-03-03 14:37:54,573 INFO    MainThread:9900 [wandb_init.py:init():588] starting backend
+2023-03-03 14:37:54,574 INFO    MainThread:9900 [wandb_init.py:init():592] setting up manager
+2023-03-03 14:37:54,581 INFO    MainThread:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-03-03 14:37:54,584 INFO    MainThread:9900 [wandb_init.py:init():599] backend started and connected
+2023-03-03 14:37:54,668 INFO    MainThread:9900 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-03-03 14:37:54,672 INFO    MainThread:9900 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-03 14:37:54,672 INFO    MainThread:9900 [wandb_init.py:init():687] updated telemetry
+2023-03-03 14:37:54,882 INFO    MainThread:9900 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-03-03 14:37:55,598 INFO    MainThread:9900 [wandb_run.py:_on_init():2134] communicating current version
+2023-03-03 14:37:55,861 INFO    MainThread:9900 [wandb_run.py:_on_init():2143] got version response 
+2023-03-03 14:37:55,861 INFO    MainThread:9900 [wandb_init.py:init():775] starting run threads in backend
+2023-03-03 14:38:02,547 INFO    MainThread:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-03 14:38:02,549 INFO    MainThread:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-03 14:38:02,549 INFO    MainThread:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-03 14:38:02,549 INFO    MainThread:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-03 14:38:02,551 INFO    MainThread:9900 [wandb_init.py:init():817] run started, returning control to user process
+2023-03-03 14:38:02,642 INFO    MainThread:9900 [wandb_run.py:_finish():1854] finishing run epaolinos/my-little-nn/dw5xq41c
+2023-03-03 14:38:02,643 INFO    MainThread:9900 [jupyter.py:save_history():449] not saving jupyter history
+2023-03-03 14:38:02,643 INFO    MainThread:9900 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-03-03 14:38:02,643 INFO    MainThread:9900 [wandb_init.py:_jupyter_teardown():420] cleaning up jupyter logic
+2023-03-03 14:38:02,643 INFO    MainThread:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-03 14:38:02,644 INFO    MainThread:9900 [wandb_run.py:_restore():2066] restore
+2023-03-03 14:38:02,645 INFO    MainThread:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-03 14:38:07,853 INFO    MainThread:9900 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-03-03 14:38:07,854 INFO    MainThread:9900 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-03-03 14:38:07,863 INFO    MainThread:9900 [wandb_run.py:_footer_sync_info():3398] logging synced files
